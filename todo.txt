@@ -1,0 +1,7 @@
+make pause button
+make finish screen
+make it run faster
+change out the system for level saving:
+  compact
+  firebase?
+polish!
