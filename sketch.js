@@ -46,7 +46,10 @@ function nextLevel() {
   level = lvx[player.lvv%lvx.length].level;
 }
 
-document.body.onmousedown = () => nextLevel();
+document.body.onmousedown = () => {
+  player.lvv--;
+  nextLevel()
+};
 
 function mouseClicked() {
   if(tell) {
